@@ -1,3 +1,8 @@
+-- author: Konrad Kania
+-- licence: as-is with restriction of commercial use.
+-- this version of presented software has been made only for testing purpose
+
+
 module HashCalculator(calculateHash) where
 
 import qualified Data.ByteString as BYTE

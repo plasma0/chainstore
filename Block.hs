@@ -1,6 +1,8 @@
 -- author: Konrad Kania
--- this software has been made only for testing purpose
-module Block(Block, newBlock)where
+-- licence: as-is with restriction of commercial use.
+-- this version of presented software has been made only for testing purpose
+
+module Block(Block(..), newBlock)where
 
 import qualified Data.ByteString as BYTE
 import qualified Data.Binary as BIN
