@@ -12,11 +12,11 @@ https://www.sqlite.org/download.html
 1. Enter into directory in which you fetched (& unpacked) files.
 2. Execute following commands:
 
-a. cabal configure
+  a. cabal configure
 
-b. cabal build
+  b. cabal build
 
-c. cabal install
+  c. cabal install
 
 ### Useage
 Execute:
