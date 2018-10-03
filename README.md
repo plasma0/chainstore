@@ -10,7 +10,8 @@ https://www.sqlite.org/download.html
 
 ### Installation
 1. Enter into directory in which you fetched (& unpacked) files.
-2. Execute following commands
+2. Execute following commands:
+
 a. cabal configure
 
 b. cabal build
