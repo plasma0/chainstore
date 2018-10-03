@@ -33,4 +33,5 @@ genesisBlock timestamp payload = let previoushash = LS.toStrict (BIN.encode (0::
 blockverify :: [Block] -> Bool
 blockverify (x1:x2:xs) = vpair x1 x2 && blockverify (x2:xs)
                          where vpair (Block ip tp pp bp hp) (Block i t p b h) = h == (calculateHash i t p b) && hp == b
+blockverify ((Block i t p b h):_)     = h == (calculateHash i t p b)
 blockverify _          = True
