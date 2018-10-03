@@ -21,7 +21,9 @@ https://www.sqlite.org/download.html
 ### Useage
 Execute:
 chainstore FILE --OPTION
+
 FILE - the name of file containing database in which you want to operate
+
 OPTION - operation you want to be done. Possible values:
 
 "--create" - create blockchain database
